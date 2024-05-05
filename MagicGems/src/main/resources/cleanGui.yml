@@ -1,0 +1,23 @@
+Title: "Cleaning GUI"
+Size: 36
+
+Items:
+  clean:
+    Material: BRUSH
+    Name: "&aClean"
+    CustomModelData: 0
+    Slot: 15
+    Lore:
+      - "&cLore 1"
+      - "&cLore 2"
+    Action: Clean
+  cleanableItem:
+    Slot: 10
+    Action: cleanableItem
+  filterItem:
+    Material: PAPER
+    Name: "&f"
+    CustomModelData: 0
+    Lore:
+      - ""
+    Action: Filter

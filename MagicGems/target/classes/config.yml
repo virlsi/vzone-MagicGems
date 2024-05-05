@@ -1,0 +1,33 @@
+#Ability list:
+#healt (+1 heart (2 hp))
+#speed (+1% speed)
+#resistance
+#strength
+gems:
+  example:
+    Material: PAPER
+    Name: "&cExample"
+    Lore:
+      - "&eLore1"
+      - "&dLore2"
+      - "&f%rarity%"
+    CustomModelData: 10
+    Glow: false
+    Ability: speed
+    RawItemName: "&cRawItemExample"
+  example2:
+    Material: PAPER
+    Name: "&2Example2"
+    Lore:
+      - "&lLore1"
+      - "&kLore2"
+      - "&f%rarity%"
+    CustomModelData: 40
+    Glow: true
+    Ability: healt
+    RawItemName: "&cRawItemExample2"
+
+ItemLore:
+  - "&8&l【&6Ékkő&8&l】"
+  - "%gem%"
+  - "&6➥ &f%rarity%"

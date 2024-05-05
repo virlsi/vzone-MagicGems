@@ -1,0 +1,10 @@
+name: MagicGems
+version: '${project.version}'
+main: vzone.hu.magicgems.Main
+api-version: '1.20'
+author: MrVIRO
+commands:
+  magicgems:
+    description: Plugin Main Command
+    aliases: mg
+website: https://discord.gg/Hq8kKXMfYy

@@ -1,0 +1,26 @@
+Title: "Upgrade Gui"
+Size: 36
+
+Items:
+  upgrade:
+    Material: Anvil
+    Name: "&aUpgrade"
+    CustomModelData: 0
+    Slot: 15
+    Lore:
+      - "&cLore 1"
+      - "&cLore 2"
+    Action: Upgrade
+  item:
+    Slot: 10
+    Action: Item
+  gem:
+    Slot: 12
+    Action: Gem
+  filterItem:
+    Material: PAPER
+    Name: "&f"
+    CustomModelData: 0
+    Lore:
+      - ""
+    Action: Filter

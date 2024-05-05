@@ -1,0 +1,8 @@
+vzone\hu\magicgems\inventorys\clean.class
+vzone\hu\magicgems\inventorys\upgrade.class
+vzone\hu\magicgems\command.class
+vzone\hu\magicgems\Events\DamageEvent.class
+vzone\hu\magicgems\ArmorAttributes.class
+vzone\hu\magicgems\Main.class
+vzone\hu\magicgems\Events\HurtEvent.class
+vzone\hu\magicgems\TesztClass.class
