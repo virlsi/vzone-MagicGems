@@ -274,7 +274,7 @@ public class command implements CommandExecutor, TabCompleter, Listener {
     }
 
     public @Nullable List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-        if ((command.getName().equalsIgnoreCase("magicgems") || command.getName().equalsIgnoreCase("mg")) && sender.hasPermission("worldswitchtitle.admin")) {
+        if ((command.getName().equalsIgnoreCase("magicgems") || command.getName().equalsIgnoreCase("mg")) && sender.hasPermission("magicgems.admin")) {
             String current = args[args.length - 1];
 
             if (args.length == 1) {
